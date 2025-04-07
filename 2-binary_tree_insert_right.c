@@ -2,7 +2,7 @@
 
 
 /**
- * binary_tree_insert_left - inserting a value into the left child of a node
+ * binary_tree_insert_right - inserting a value into the left child of a node
  * @parent: parent node
  * @value: value we want to pass
  * Return: the new node
@@ -24,7 +24,7 @@ binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 	node->right = NULL;
 	node->left = NULL;
 
-	if (parent->left != NULL)
+	if (parent->right != NULL)
 	{
 		node->right = parent->right;
 		parent->right->parent = node;

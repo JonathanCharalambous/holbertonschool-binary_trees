@@ -24,6 +24,7 @@ int tree_depth(const binary_tree_t *tree)
 
 /**
  * is_perfect- determines if the tree is pefect
+ * @tree: the tree to check
  * @depth: the depth of the tree
  * @level: the level we're currently at
  * Return: returns if the node has two children and increases the level by 1
